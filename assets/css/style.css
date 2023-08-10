@@ -1,0 +1,208 @@
+/*
+Autor: Jorge Marcelo
+Data de Criação: 09/08/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+*/ 
+
+
+/*Google Fonts*/
+/*Rubiki*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+/*Titillium Web*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
+
+/*Configurações padrão*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-align: center;
+transition: all 0.5s ease;
+}
+
+/*Background color*/
+body{
+background-color: rgb(255, 255, 255);
+}
+
+/*Formulario*/
+form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 300px;
+background-color: rgb(41, 40, 40);
+border-radius: 10px;
+box-shadow: 0 20px 25px rgba(0,0,0,0.25);
+position: absolute;
+transform: translate(-50%,-50%);
+left: 50%;
+top: 50%;
+padding: 10px;
+border: 3px solid rgb(255, 174, 0);
+}
+
+/*Textos*/
+h1{
+color:rgb(255, 174, 0);
+font-family: 'Rubik', sans-serif;
+font-size: 1.4em;
+font-weight: 900;
+margin: 10px;
+}
+
+
+h2{
+color:rgb(255, 174, 0);
+font-family: 'Rubik', sans-serif;
+font-size: 1.2em;
+font-weight: 900;
+margin: 10px;
+}
+
+label{
+font-family: 'Titillium Web', sans-serif;
+font-size: 1em;
+font-weight: 900;
+color: rgb(255, 174, 0);
+margin: 5px;
+
+}
+
+/*input e select*/
+input{
+border-radius: 10px;
+background:transparent;
+border: 2px solid rgb(255, 174, 0);
+width: 100%;
+height: 30px;
+outline: none;
+color: rgb(255, 174, 0);
+font-size: 1.2em;
+margin: 5px;
+}
+
+select{
+border: 2px solid rgb(255, 174, 0);
+background: transparent;
+width: 200px;
+border-radius: 10px;
+height: 30px;
+font-family: 'Titillium Web', sans-serif;
+font-size: 1.1em;
+font-weight: 400;
+color: rgb(255, 174, 0);
+cursor: pointer;
+text-align: center;
+margin: 5px;
+
+}
+
+/*Botão de conversão*/
+.buttonConverter{
+border-radius: 30px;
+cursor: pointer;
+width: 200px;
+height: 35px;
+font-family: 'Titillium Web', sans-serif;
+font-weight: 900;
+font-size: 1.3em;
+color: rgb(255, 174, 0);
+margin: 10px;
+border: 3px solid white;
+background-color:transparent;
+}
+
+.buttonConverter:hover{
+background-color: rgb(255, 228, 75);
+color: rgb(0, 0, 0);
+}
+
+/*Paragrafo da mensagem*/
+p{
+font-weight: 900;
+font-size: 1.2em;
+color: rgb(255, 174, 0);
+}
+
+section{
+width: 300px;
+padding: 0.5em 1em;
+font-weight: 900;
+}
+
+article{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+
+input[type="range"]{
+height: 7px;
+-webkit-appearance: none;
+appearance: none;
+background-color: #ffd900;
+outline: none;
+}
+
+.range{
+border: none;
+}
+
+footer{
+width: 300px;
+font-weight: 900;
+}
+
+/*Rodape e redes sociais*/
+table{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+
+button{
+margin:  0 7px;
+border-radius: 100%;
+cursor: pointer;
+}
+
+.github{
+background: transparent;
+border: 2px solid rgb(255, 187, 0);
+background-color: white;
+}
+
+.github:hover{
+background-color: rgb(255, 198, 75);
+border: 2px solid rgb(255, 255, 255);
+}
+
+.linkedin{
+background: transparent;
+border: 2px solid rgb(255, 187, 0);
+background-color: white;
+}
+
+.linkedin:hover{
+background-color: rgb(255, 198, 75);
+border: 2px solid rgb(255, 255, 255);
+}
+
+.instagram{
+background: transparent;
+border: 2px solid rgb(255, 187, 0);
+background-color: white;
+}
+
+.instagram:hover{
+background-color: rgb(255, 198, 75);
+border: 2px solid rgb(255, 255, 255);
+}

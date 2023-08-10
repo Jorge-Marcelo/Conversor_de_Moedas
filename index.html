@@ -1,0 +1,116 @@
+<!--
+Autor: Jorge Marcelo
+Data de Criação: 11/08/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+Instagram: https://www.instagram.com/10_stronger/
+Threads: https://www.threads.net/@10_stronger
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Conversor de Moedas</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+</head>
+<body>
+<main>
+
+<!--Formulario-->
+<form id="form">
+<h1>Conversor de Moedas</h1>
+<label for="valor">Digite um valor:</label>
+<!--Input text inserido valores-->
+<input type="text" id="valor" placeholder="Digite um valor">
+
+<!--Label e input select-->
+<label for="moedaOriginal">Moeda de Origem:</label>
+<select id="moedaOriginalOption">
+<option value="Escolha">Escolha uma moeda</option>
+<option value="BRL">R$ Real</option>
+<option value="USD">U$ Dólar</option>
+<option value="EUR">€ Euro</option>
+<option value="GBP">£ Libra</option>
+</select>
+    
+<label for="moedaConvertida">Moeda de Destino:</label>
+<select id="moedaConvertidaOption">
+<option value="Escolha">Escolha uma moeda</option>
+<option value="BRL">R$ Real</option>
+<option value="USD">U$ Dólar</option>
+<option value="EUR">€ Euro</option>
+<option value="GBP">£ Libra</option>
+</select>
+    
+<!--Botão de conversão-->
+<button id="buttonConverter" class="buttonConverter">Converter</button>
+<button id="buttonLimpar" class="buttonConverter">Limpar</button>
+<p id="resultado"></p>
+
+<section>
+<h2>Mudar Cor pelo RGB</h2>
+
+<!--Rangers RGB-->
+<article class="rangers">
+<label for="red">Red</label>
+<input type="range" min="0" max="255" value="0" id="red" class="range">
+</article>
+
+<article class="rangers">
+<label for="green">Green</label>
+<input type="range" min="0" max="255" value="0" id="green" class="range">
+</article>
+
+<article class="rangers">
+<label for="green">Blue</label>
+<input type="range" min="0" max="255" value="0" id="blue" class="range">
+</article>
+
+<!--Resultados-->
+<aside class="resultadoRGB">
+<button id="copiar" class="buttonConverter">Copiar Codigo RGB </button>
+<input type="text" value="rgb(0,0,0)" readonly/>
+</aside>
+</section>
+
+<h2>Made By: Jorge Marcelo</h2>
+
+<!--Rodape com as redes sociais-->
+<footer>
+<table>
+<tr>
+<td><button class="github" id="github">
+<img src="assets/img/github.png" class="margin-button-github">
+</button></td>
+
+<td><button class="linkedin" id="linkedin">
+<img src="assets/img/linkedin.png">
+</button></td>
+
+
+<td><button class="instagram" id="instagram">
+<img src="assets/img/insta.png" class="margin-button">
+</button></td>
+
+
+<td><button class="github" id="threads">
+<img src="assets/img/threads.png" class="margin-button">
+</button></td>
+</tr>
+</table>
+</footer>
+
+
+    
+
+
+
+</form>      
+</main>
+<script src='assets/js/script.js'></script>
+
+</body>
+</html>
