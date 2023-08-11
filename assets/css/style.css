@@ -1,6 +1,6 @@
 /*
 Autor: Jorge Marcelo
-Data de Criação: 09/08/2023
+Data de Criação: 11/08/2023
 Github: https://github.com/Jorge-Marcelo
 Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
 Instagram: https://www.instagram.com/10_stronger/
@@ -111,7 +111,7 @@ width: 200px;
 height: 35px;
 font-family: 'Titillium Web', sans-serif;
 font-weight: 900;
-font-size: 1.3em;
+font-size: 1.1em;
 color: rgb(255, 174, 0);
 margin: 10px;
 border: 3px solid white;
@@ -142,6 +142,7 @@ justify-content: space-between;
 width: 100%;
 }
 
+/*Input de range*/
 input[type="range"]{
 height: 7px;
 -webkit-appearance: none;
@@ -154,12 +155,14 @@ outline: none;
 border: none;
 }
 
+
+/*Rodape e redes sociais*/
 footer{
 width: 300px;
 font-weight: 900;
 }
 
-/*Rodape e redes sociais*/
+
 table{
 display: flex;
 flex-direction: column;
